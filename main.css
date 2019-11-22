@@ -201,3 +201,44 @@ a{
 #copyright{
     margin: 60px 0;
 }
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    font-size: 2em;
+    align-content: center;
+    justify-content: center;
+
+}
+.divider{
+    width: 100vw;
+    height: 1px;
+    background-color: #000;
+}
+#contact{
+    padding: 50px 0;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: end;
+    right: calc(50vw - 250px);
+}
+.form-input{
+    margin: 20px 20px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 0%;
+}
+.dark-botton{
+    background-color: #5e5e5e;
+    color: #fff;
+    margin: 0 30px;
+}
+.dark-botton::after{
+    border-color: #fff;
+    filter: drop-shadow(2px 2px 0 #fff);
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id=header>
+        <div id="logo">DEJI BURGER</div>
+        <div id="footer-links">
+            <span class="footer-link"><a href="#">HOME</a></span>
+            <span class="footer-link"><a href="#">ABOUT</a></span>
+            <span class="footer-link"><a href="#">NEWS</a></span>
+            <span class="footer-link"><a href="#">MENU</a></span>
+            <span class="footer-link"><a href="#">ACCESS</a></span>
+            <span class="footer-link"><a href="#">CONTACT</a></span>
+        </div>
+        <div>
+            <i class="nav-button nav-pop fab fa-facebook-square"></i>
+            <i class="nav-button nav-pop fab fa-twitter-square"></i>
+            <i class="nav-button nav-pop fab fa-instagram"></i>
+        </div>
+    </header>
+    <div class="divider"></div>
+    <section id=contact class="section">
+        <div class="section-title">
+            <div class="section-title-main">
+                <img src="images/Contact.png">
+            </div>
+            <div>お問い合わせ</div>
+        </div>
+        <div class="section-text">
+            以下のフォームからお問い合わせ、ご予約ができます。<br>
+            ※ ご予約の方は「コメント」欄にご予約希望日時をご記入ください。
+
+        </div>
+        <form>
+            <div>
+                <input type="radio" id="contact" name="type" value="contact" checked>
+                <label for="contact">お問い合わせ</label>
+                <input type="radio" id="reserve" name="type" value="reserve">
+                <label for="reserve">ご予約</label>
+            </div>
+            <div class="section-form">
+                <div>お名前<input class="form-input" type="text" name="name" size="80" maxlength="20"></div>
+                <div>ふりがな<input class="form-input" type="text" name="eng" size="80" maxlength="20"></div>
+                <div>email<input class="form-input" type="text" name="email" size="80" maxlength="20"></div>
+                <div>tel<input class="form-input" type="text" name="tel" size="80" maxlength="20"
+                        placeholder="半角数字、ハイフンありで入力してください"></div>
+                <div>お名前<input class="form-input" type="text" name="name" size="80" maxlength="20"></div>
+                <div style="padding-right: 312px;">お住まいの都道府県<select class="form-input" name="prv">
+                        <option>都道府県を選択</option>
+                    </select></div>
+                <div>
+                    <span style="position: relative; bottom: 130px;">コメント</span><textarea class="form-input" type="text"
+                        name="comment" cols="80" maxlength="20" placeholder="お問い合わせ内容または、ご予約希望日時を入力してください"
+                        style="height: 120px;"></textarea>
+                </div>
+            </div>
+            <button class="section-button dark-botton" type="submit">
+                送信
+            </button>
+            <button class="section-button dark-botton" type="reset">
+                リセット
+            </button>
+        </form>
+    </section>
+    <div class="divider"></div>
+    <footer id="footer">
+        <div id="footer-links">
+            <span class="footer-link"><a href="#">HOME</a></span>
+            <span class="footer-link"><a href="#">ABOUT</a></span>
+            <span class="footer-link"><a href="#">NEWS</a></span>
+            <span class="footer-link"><a href="#">MENU</a></span>
+            <span class="footer-link"><a href="#">ACCESS</a></span>
+            <span class="footer-link"><a href="#">CONTACT</a></span>
+        </div>
+        <div>
+            <i class="nav-button nav-pop fab fa-facebook-square"></i>
+            <i class="nav-button nav-pop fab fa-twitter-square"></i>
+            <i class="nav-button nav-pop fab fa-instagram"></i>
+        </div>
+        <div id="copyright">Copyright ©︎ Deji Burger. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>
